@@ -21,7 +21,7 @@ jobs:
           key: ${{ secrets.AZURE_SSH_KEY }}
           script: |
             if [ ! -d "docker-assignment-ih" ]; then
-              git clone https://github.com/saurabhd2106/docker-assignment-ih.git
+              git clone https://github.com/huseynhasanlu/docker-assignment-ih.git
               cd docker-assignment-ih
             else
               cd docker-assignment-ih
